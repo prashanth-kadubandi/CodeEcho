@@ -1,0 +1,42 @@
+/* AGGRESSIVE HIDING - Servers dropdown */
+.servers,
+.servers-wrapper,
+.swagger-ui .servers,
+.swagger-ui .servers-wrapper,
+select[aria-label="Servers"],
+.scheme-container,
+.swagger-ui .scheme-container,
+[class*="servers"],
+[class*="server-"] {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+/* AGGRESSIVE HIDING - Schema models */
+.models,
+.models-wrapper,
+.swagger-ui .models,
+.swagger-ui .models-wrapper,
+.model-container,
+.swagger-ui .model-container,
+[class*="models"],
+[class*="model-"] {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Clean up the header area */
+.swagger-ui .info {
+    margin-bottom: 20px;
+}
+
+/* Hide anything that says "Schemas" */
+h4:contains("Schemas"),
+h3:contains("Schemas"),
+h2:contains("Schemas") {
+    display: none !important;
+}
