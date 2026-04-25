@@ -48,8 +48,8 @@ POST http://localhost:8080/api/pr-analyzer/analyze-and-generate
 Content-Type: application/json
 
 {
-  "prUrl": "https://github.com/intacct/ia-ds-fa/pull/2360",
-  "requirements": "Generate similar changes in another GLKey"
+  "prUrl": "https://github.com/<URL>",
+  "requirements": "Generate similar changes in another feature"
 }
 ```
 
@@ -71,4 +71,4 @@ Content-Type: application/json
 ## 📞 Contact
 
 - **Team:** CodeEcho Team
-- **Email:** prashanth.kadubandi@sage.com, suresh.adiserla@sage.com
+- **Email:** prasanth.kadubandi@gmail.com
